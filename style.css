@@ -1,86 +1,100 @@
-body{
+body {
 
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
+h1 {
 
     font-size: 40px;
 }
-h2{
+
+h2 {
     font-size: 35px;
 }
 
-.orange{
+.orange {
 
     color: orange;
 }
 
-section{
+section {
 
-    display:flex;
+    display: flex;
 }
-.half-width{
+
+.half-width {
 
     width: 50%;
-    padding-left:5%;
+    padding-left: 5%;
 
 }
 
 .half-width img {
     width: 550px;
 }
+
 .link-buttom {
-text-decoration: none;
-background-image: linear-gradient(orange,tomato);
-padding:10px 40px;
-border-radius: 5px;
-color:white;
-font-family: 700;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-family: 700;
 
 }
-.orange{
+
+.orange {
     color: orange;
 }
-  
+
 .top-banner {
 
     background: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.flex{
+
+.flex {
     display: flex;
     margin-top: 150px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
 }
- .box-shadow{
-
-    box-shadow:10px 10px 40px gray;
-    width: 40%;
-    padding-left:5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
+.bgimg{
     background-image: url(images/exp-bg.png);
     background-position: left;
     background-repeat: no-repeat;
-    border-image:linear-gradient(orange tomato)
- }
- .shadow{
+}
+.box-shadow {
 
-    box-shadow:10px 10px 40px gray;
+    box-shadow: 10px 10px 40px gray;
     width: 40%;
-    padding-left:5%;
+    padding-left: 5%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
-    border-image:linear-gradient(orange tomato)
- }
- .footer{
-     text-align:center;
-     margin-top: 10rem;
-     : 10px;
- }
+    border-left: 5px;
+    border-right: 0;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, blue, skyblue)1 100%;
+}
+
+.shadow {
+
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-left: 5px;
+    border-right:0;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgb(211, 15, 15), rgb(231, 217, 15))1 100%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10rem;
+}
